@@ -1,0 +1,269 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+
+.header {
+    color: gray;
+    background-color: black;
+    padding: 33px 0;
+    height: 110px;
+    margin-bottom: 40px;
+}
+
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+.nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.menu-item {
+    padding-right: 30px;
+}
+.menu-link {
+  font-size: 24px;
+
+}
+.logo {
+
+}
+.img-logo {
+}
+.phone {
+  font-size: 22px;
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: right;
+
+
+}
+
+
+
+
+.underHeader {
+  background-color: #f5f5f7;
+  text-align: center;
+  padding: 70px 0 40px;
+}
+
+.title {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: rgb(78, 0, 161);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+}
+.underHeader-img {
+  margin-bottom: 25px;
+}
+.underHeader-button {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: white;
+
+  background-color: blueviolet;
+  padding: 22px 117px 19px 118px;
+  border-radius: 25px;
+}
+
+
+
+.InfoSell {
+  padding: 40px;
+}
+
+.titleInfo {
+  text-align: center;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 29px;
+}
+
+.newInfo{
+  display: flex;
+}
+
+.baseinfo {
+  font-size: 14px;
+  font-weight: 430;
+  margin-bottom: 40px;
+  max-width: 1101px;
+  max-height: 533px;
+}
+
+.Zaglavinfo {
+  font-size: 24px;
+  font-weight: 630;
+  line-height: 29px;
+  max-width: 1101px;
+  max-height: 533px;
+
+
+}
+.Iphone-img {
+  margin-left: 191px;
+  margin-top: 70px;
+  height: 370px;
+}
+
+
+
+.viborPhone-menu {
+  margin-bottom: 40px;
+  display: flex;
+
+}
+.item-phone {
+  margin: auto;
+
+}
+.miniPhone {
+}
+.namedPhone {
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 15px;
+  font-weight: 700;
+
+}
+.opisanyePhone {
+  padding: 5px;
+  text-align: center;
+  font-size: 11px;
+}
+
+
+
+
+
+
+
+.contaks-inner {
+  
+  display: flex;
+  background-color: rgb(105, 69, 139);
+  margin-bottom: 0;
+  
+}
+.contaks-form {
+  width: 100%;
+  padding: 140px 100px;
+  text-align: center;
+
+  
+}
+
+.contaks-form button{
+  border: none;
+  text-transform: uppercase;
+  color: rgb(105, 69, 139);
+  background-color: #fff;
+  
+
+  border-radius: 30px;
+  padding: 16px 81px;
+}
+.contaktTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+}
+.contaks-input {
+  padding: 10px 0;
+  border:none;
+  border-bottom: 1px solid #fff;
+  display:block;
+
+  width: 100%;
+  margin: 20px 0;
+  color: #fff;
+  background-color: rgb(105, 69, 139);
+}
+
+.contaks-input::placeholder{
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.opis{
+  color:#f5f5f7;
+  padding: 5px;
+  font-size: 13px;
+
+}
+.themePhone {
+  
+}
+
+.footer{
+  background-color: black;
+  margin-bottom: 0;
+
+}
+.footer-inner{
+  color: #717171;
+  padding: 50px 0;
+
+
+}
+
+
+
+
+
+
+
